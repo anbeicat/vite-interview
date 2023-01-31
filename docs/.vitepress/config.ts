@@ -1,3 +1,11 @@
+/*
+ * @Author: anqiao 1102877041@qq.com
+ * @Date: 2023-01-31 11:36:18
+ * @LastEditors: anqiao 1102877041@qq.com
+ * @LastEditTime: 2023-01-31 14:04:25
+ * @description: 
+ * @FilePath: /vite-interview/docs/.vitepress/config.ts
+ */
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
@@ -21,6 +29,8 @@ export default defineConfig({
             { text: '闭包', link: '/js/闭包' },
             { text: '预编译', link: '/js/预编译' },
             { text: 'this指向面试题总结', link: '/js/this指向面试题总结' },
+            { text: '数组方法', link: '/js/数组方法' },
+            { text: '解构赋值', link: '/js/解构赋值' },
           ],
           collapsible: true
         }
